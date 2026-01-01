@@ -1,32 +1,19 @@
 # 💫 It's ME
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=750&lines=Java+Backend+Developer+%7C+Spring+Boot+%7C+DSA+%7C+Databases" />
 </p>
 
-# 💫 About Me
+| 🔭 **Currently Working On** | 👯 **Collaboration** |
+|---|---|
+| ![Java](https://img.shields.io/badge/Java-Core%20%26%20Advanced-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-REST%20APIs-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-Build%20Automation-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) | ![Backend](https://img.shields.io/badge/Backend-Java%20Projects-0A66C2?style=for-the-badge) ![Open Source](https://img.shields.io/badge/Open%20Source-Spring%20Boot-3DA639?style=for-the-badge) ![Database](https://img.shields.io/badge/Database-SQL%20%26%20NoSQL-003545?style=for-the-badge) |
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=750&lines=Java+Backend+Developer+%7C+Spring+Boot+%7C+DSA+%7C+Databases" />
-</p>
+| 🤝 **Need Help With** | 🌱 **Learning** |
+|---|---|
+| ![DSA](https://img.shields.io/badge/DSA-Interview%20Prep-blue?style=for-the-badge) ![System Design](https://img.shields.io/badge/System%20Design-Basics-orange?style=for-the-badge) ![Clean Code](https://img.shields.io/badge/Clean%20Code-Scalable-success?style=for-the-badge) | ![Java](https://img.shields.io/badge/Java-Frameworks-red?style=for-the-badge) ![DSA](https://img.shields.io/badge/DSA-Daily%20Practice-blueviolet?style=for-the-badge) ![Databases](https://img.shields.io/badge/Databases-Core%20Concepts-4479A1?style=for-the-badge) |
 
-### 🔭 Currently Working On
-![Java](https://img.shields.io/badge/Java-Core%20%26%20Advanced-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) **→** ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-REST%20APIs-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) **→** ![Maven](https://img.shields.io/badge/Maven-Build%20Automation-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-
-### 👯 Collaboration
-![Backend](https://img.shields.io/badge/Backend-Java%20Projects-0A66C2?style=for-the-badge) **|** ![Open Source](https://img.shields.io/badge/Open%20Source-Spring%20Boot-3DA639?style=for-the-badge) **|** ![Database](https://img.shields.io/badge/Database-SQL%20%26%20NoSQL-003545?style=for-the-badge)
-
-### 🤝 Need Help With
-![DSA](https://img.shields.io/badge/DSA-Interview%20Prep-blue?style=for-the-badge) **|** ![System Design](https://img.shields.io/badge/System%20Design-Basics-orange?style=for-the-badge) **|** ![Clean Code](https://img.shields.io/badge/Clean%20Code-Scalable-success?style=for-the-badge)
-
-### 🌱 Learning
-![Java](https://img.shields.io/badge/Java-Frameworks-red?style=for-the-badge) **|** ![DSA](https://img.shields.io/badge/DSA-Daily%20Practice-blueviolet?style=for-the-badge) **|** ![Databases](https://img.shields.io/badge/Databases-Core%20Concepts-4479A1?style=for-the-badge)
-
-### 💬 Ask Me About
-![Java](https://img.shields.io/badge/Java-OOPs%20%26%20Core-orange?style=for-the-badge) **|** ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Project%20Setup-6DB33F?style=for-the-badge) **|** ![DSA](https://img.shields.io/badge/DSA-Problem%20Solving-blue?style=for-the-badge)
-
-### ⚡ Fun Fact
-![Consistency](https://img.shields.io/badge/Coding-Daily%20Habit-success?style=for-the-badge) **|** ![Growth](https://img.shields.io/badge/Mindset-Always%20Learning-yellow?style=for-the-badge)
+| 💬 **Ask Me About** | ⚡ **Fun Fact** |
+|---|---|
+| ![Java](https://img.shields.io/badge/Java-OOPs%20%26%20Core-orange?style=for-the-badge) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Project%20Setup-6DB33F?style=for-the-badge) ![DSA](https://img.shields.io/badge/DSA-Problem%20Solving-blue?style=for-the-badge) | ![Consistency](https://img.shields.io/badge/Coding-Daily%20Habit-success?style=for-the-badge) ![Growth](https://img.shields.io/badge/Mindset-Always%20Learning-yellow?style=for-the-badge) |
 
 
 
