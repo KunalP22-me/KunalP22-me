@@ -1,43 +1,32 @@
 # 💫 About Me
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=700&lines=Java+Backend+Developer;Spring+Boot+%7C+DSA+%7C+Databases;Learning+Daily+%F0%9F%9A%80" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=21&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=650&lines=Java+Backend+Developer;Spring+Boot+%7C+DSA+%7C+Databases;Learning+Every+Day+%F0%9F%9A%80" />
 </p>
 
----
+### 🧩 Focus
+![Java](https://img.shields.io/badge/Java-Core%20%26%20Advanced-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Backend-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-Build-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
 
-### 🧩 Currently Focused On
-![Java](https://img.shields.io/badge/Java-Core%20%26%20Advanced-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Backend-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-Build%20Tools-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+### 🤝 Collaborate
+![Backend](https://img.shields.io/badge/Backend-Development-0A66C2?style=flat-square)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contrib-3DA639?style=flat-square)
+![Database](https://img.shields.io/badge/Database-Projects-003545?style=flat-square)
 
----
+### 🧠 Learning
+![DSA](https://img.shields.io/badge/DSA-Daily-blue?style=flat-square)
+![System Design](https://img.shields.io/badge/System%20Design-Basics-orange?style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-Concepts-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-### 🤝 Open to Collaborate On
-![Backend](https://img.shields.io/badge/Backend-Development-0A66C2?style=for-the-badge)
-![Open Source](https://img.shields.io/badge/Open%20Source-Contributions-3DA639?style=for-the-badge)
-![Databases](https://img.shields.io/badge/Database-Projects-003545?style=for-the-badge)
+### 💬 Ask Me
+![Java](https://img.shields.io/badge/Java-OOP-red?style=flat-square)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Setup-6DB33F?style=flat-square)
+![DSA](https://img.shields.io/badge/DSA-Prep-blueviolet?style=flat-square)
 
----
-
-### 🧠 Learning & Improving
-![DSA](https://img.shields.io/badge/DSA-Daily%20Practice-blue?style=for-the-badge)
-![System Design](https://img.shields.io/badge/System%20Design-Basics-orange?style=for-the-badge)
-![SQL](https://img.shields.io/badge/SQL-Database%20Concepts-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
----
-
-### 💬 Ask Me About
-![Java](https://img.shields.io/badge/Java-Basics%20%26%20OOP-red?style=for-the-badge)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Project%20Setup-6DB33F?style=for-the-badge)
-![DSA](https://img.shields.io/badge/DSA-Interview%20Prep-blueviolet?style=for-the-badge)
-
----
-
-### ⚡ Fun Fact
-![Consistency](https://img.shields.io/badge/Coding-Daily%20Habit-success?style=for-the-badge)
-![Growth](https://img.shields.io/badge/Focus-Continuous%20Growth-yellow?style=for-the-badge)
-
+### ⚡ Fun
+![Consistency](https://img.shields.io/badge/Coding-Daily-success?style=flat-square)
+![Growth](https://img.shields.io/badge/Growth-Continuous-yellow?style=flat-square)
 
 
 ## 🌐 Socials:
