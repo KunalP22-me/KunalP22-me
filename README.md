@@ -1,46 +1,43 @@
 # 💫 About Me
 
-✨ **Passionate Java Developer | Backend Enthusiast | Lifelong Learner**
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=700&lines=Java+Backend+Developer;Spring+Boot+%7C+DSA+%7C+Databases;Learning+Daily+%F0%9F%9A%80" />
+</p>
 
 ---
 
-🔭 **Currently Working On**  
-🚀 Building **Java-based backend projects** using **Spring Boot**, **Spring**, and **Maven**  
-📌 Strengthening **Core Java fundamentals** with real-world practice  
+### 🧩 Currently Focused On
+![Java](https://img.shields.io/badge/Java-Core%20%26%20Advanced-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Backend-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-Build%20Tools-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 
 ---
 
-👯 **Looking to Collaborate On**  
-🤝 Beginner–Intermediate **Java Projects**  
-🌐 **Backend Development** & **Open-Source Contributions**  
-🛠 Projects involving **Spring Boot** and **Databases**
+### 🤝 Open to Collaborate On
+![Backend](https://img.shields.io/badge/Backend-Development-0A66C2?style=for-the-badge)
+![Open Source](https://img.shields.io/badge/Open%20Source-Contributions-3DA639?style=for-the-badge)
+![Databases](https://img.shields.io/badge/Database-Projects-003545?style=for-the-badge)
 
 ---
 
-🤝 **Looking for Help With**  
-📚 **DSA problem-solving** for interviews & placements  
-🏗 **System Design basics**  
-⚙ Writing **clean, scalable, and maintainable backend code**
+### 🧠 Learning & Improving
+![DSA](https://img.shields.io/badge/DSA-Daily%20Practice-blue?style=for-the-badge)
+![System Design](https://img.shields.io/badge/System%20Design-Basics-orange?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-Database%20Concepts-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
-🌱 **Currently Learning**  
-☕ **Java & Java Frameworks** – Spring, Spring Boot, Maven  
-🧠 **Data Structures & Algorithms** (Daily Practice)  
-🗄 **Databases** – SQL & core DB concepts  
+### 💬 Ask Me About
+![Java](https://img.shields.io/badge/Java-Basics%20%26%20OOP-red?style=for-the-badge)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Project%20Setup-6DB33F?style=for-the-badge)
+![DSA](https://img.shields.io/badge/DSA-Interview%20Prep-blueviolet?style=for-the-badge)
 
 ---
 
-💬 **Ask Me About**  
-💡 Java Basics & OOPs  
-🔧 Spring Boot project setup  
-🧩 DSA preparation strategies  
-🌍 Getting started with backend development  
+### ⚡ Fun Fact
+![Consistency](https://img.shields.io/badge/Coding-Daily%20Habit-success?style=for-the-badge)
+![Growth](https://img.shields.io/badge/Focus-Continuous%20Growth-yellow?style=for-the-badge)
 
----
-
-⚡ **Fun Fact**  
-🔥 I code **every single day** — even small improvements compound into big results 🚀
 
 
 ## 🌐 Socials:
