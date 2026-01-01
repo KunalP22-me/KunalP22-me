@@ -1,5 +1,46 @@
-# 💫 About Me:
-🔭 I’m currently working on<br>Building Java-based projects using Spring Boot, Spring, and Maven, while strengthening my core Java fundamentals.<br><br>👯 I’m looking to collaborate on<br>Beginner to intermediate Java projects, backend development, and open-source contributions related to Spring Boot or databases.<br><br>🤝 I’m looking for help with<br>Improving DSA problem-solving, system design basics, and best practices for writing scalable backend code.<br><br>🌱 I’m currently learning<br><br>Java & Java Frameworks (Spring, Spring Boot, Maven)<br><br>Data Structures & Algorithms (for interviews and job prep)<br><br>Databases (SQL & DB concepts)<br><br>💬 Ask me about<br>Java basics, Spring Boot project setup, DSA preparation strategies, or starting backend development.<br><br>⚡ Fun fact<br>I try to code every day—even small improvements matter 🚀
+# 💫 About Me
+
+✨ **Passionate Java Developer | Backend Enthusiast | Lifelong Learner**
+
+---
+
+🔭 **Currently Working On**  
+🚀 Building **Java-based backend projects** using **Spring Boot**, **Spring**, and **Maven**  
+📌 Strengthening **Core Java fundamentals** with real-world practice  
+
+---
+
+👯 **Looking to Collaborate On**  
+🤝 Beginner–Intermediate **Java Projects**  
+🌐 **Backend Development** & **Open-Source Contributions**  
+🛠 Projects involving **Spring Boot** and **Databases**
+
+---
+
+🤝 **Looking for Help With**  
+📚 **DSA problem-solving** for interviews & placements  
+🏗 **System Design basics**  
+⚙ Writing **clean, scalable, and maintainable backend code**
+
+---
+
+🌱 **Currently Learning**  
+☕ **Java & Java Frameworks** – Spring, Spring Boot, Maven  
+🧠 **Data Structures & Algorithms** (Daily Practice)  
+🗄 **Databases** – SQL & core DB concepts  
+
+---
+
+💬 **Ask Me About**  
+💡 Java Basics & OOPs  
+🔧 Spring Boot project setup  
+🧩 DSA preparation strategies  
+🌍 Getting started with backend development  
+
+---
+
+⚡ **Fun Fact**  
+🔥 I code **every single day** — even small improvements compound into big results 🚀
 
 
 ## 🌐 Socials:
