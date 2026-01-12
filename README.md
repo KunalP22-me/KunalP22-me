@@ -13,7 +13,7 @@
 
 | 💬 **Ask Me About** | ⚡ **Fun Fact** |
 |---|---|
-| ![Java](https://img.shields.io/badge/Java-OOPs%20%26%20Core-orange?style=for-the-badge) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Project%20Setup-6DB33F?style=for-the-badge) ![DSA](https://img.shields.io/badge/DSA-Problem%20Solving-blue?style=for-the-badge) | ![Consistency](https://img.shields.io/badge/Coding-Daily%20Habit-success?style=for-the-badge) ![Growth](https://img.shields.io/badge/Mindset-Always%20Learning-yellow?style=for-the-badge) |
+| ![Java](https://img.shields.io/badge/Java-OOPs%20%26%20Core-orange?style=for-the-badge) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Project%20Setup-6DB33F?style=for-the-badge) ![DSA](https://img.shields.io/badge/DSA-Problem%20Solving-blue?style=for-the-badge) | ![Consistency](https://img.shields.io/badge/Coding-Daily%20Habit-success?style=for-the-badge) ![Growth](https://img.shields.io/badge/Mindset-Always%20Learning-yellow?style=for-the-badge) | 
 
 
 
