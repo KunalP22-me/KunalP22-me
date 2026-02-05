@@ -1,6 +1,6 @@
 # 💫 It's ME This Time  
 <p align="center">  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=750&lines=Java+Backend+Developer+%7C+Spring+Boot+%7C+DSA+%7C+Databases" />
+  <img src="https://readme-typing-svg.herokuapp.com? font=Fira+Code&size=22&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=750&lines=Java+Backend+Developer+%7C+Spring+Boot+%7C+DSA+%7C+Databases" />
 </p>
 
 | 🔭 **Currently Working On** | 👯 **Collaboration** |
