@@ -18,7 +18,7 @@
 
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]([www.linkedin.com/in/kunalp22](https://www.linkedin.com/in/kunalp22)) [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?logo=leetcode&logoColor=black)](https://leetcode.com/u/Kunalp22/) [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discordapp.com/users/1017728441220612186/) [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-%232F8D46.svg?logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/kunalpan7yrn/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kunalp22) [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?logo=leetcode&logoColor=black)](https://leetcode.com/u/Kunalp22/) [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discordapp.com/users/1017728441220612186/) [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-%232F8D46.svg?logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/kunalpan7yrn/)
 
 
 
