@@ -1,13 +1,4 @@
-Here is your **final cleaned + compact + animated GitHub README** —
-✅ Already merged
-✅ No duplicate sections
-✅ Keeps stats, snake, achievements
-✅ Optimized for recruiters
-✅ Just **copy → paste into `README.md`**
 
----
-
-````md
 <!-- 🔷 Animated Header -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:0077B5&height=160&section=header&text=Kunal%20Pandit&fontSize=38&fontColor=ffffff&animation=fadeIn"/>
@@ -113,6 +104,5 @@ daily_goal: Build • Learn • Improve • Repeat
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0077B5,100:00F7FF&height=90&section=footer"/>
 </p>
-```
 
 ---
