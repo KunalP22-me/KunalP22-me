@@ -50,13 +50,15 @@
 ## 📊 GitHub Dashboard
 
 <p align="center">
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=tokyonight&hide_border=true"/>
+<img width="70%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=tokyonight&hide_border=true"/>
 </p>
 
+
+## 🏅 GitHub Contribution Graph
 <p align="center">
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=tokyonight&hide_border=true"/>
-<img width="48%" src="https://github-readme-activity-graph.vercel.app/graph?username=KunalP22-me&theme=tokyo-night&hide_border=true"/>
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=KunalP22-me&theme=tokyo-night&hide_border=true"/>
 </p>
 
 
@@ -67,10 +69,3 @@
 <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="95"/>
 <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="95"/>
 </p>
-
----
-
-<div align="center">
-
-🐍 Contribution Snake
-<picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KunalP22-me/KunalP22-me/output/github-contribution-grid-snake-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KunalP22-me/KunalP22-me/output/github-contribution-grid-snake.svg"> <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/KunalP22-me/KunalP22-me/output/github-contribution-grid-snake.svg"> </picture> </div>
