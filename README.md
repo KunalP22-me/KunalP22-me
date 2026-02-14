@@ -47,14 +47,14 @@
 
 <p align="center">
 <!-- <img width="70%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=tokyonight&hide_border=true"/> -->
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=tokyonight&hide_border=true"/>
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=dark&hide_border=false"/>
 </p>
 
 
 ## 📈 GitHub Contribution Graph
 <p align="center">
 <!-- <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=tokyonight&hide_border=true"/> -->
-<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=KunalP22-me&theme=tokyo-night&hide_border=true"/>
+<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=KunalP22-me&theme=dark&hide_border=false"/>
 </p>
 
 
