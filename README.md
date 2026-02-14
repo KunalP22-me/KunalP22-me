@@ -25,56 +25,6 @@
 
 
 
-<table>
-<tr>
-
-<td width="50%">
-
-### 👯 Collaboration  
-![Backend](https://img.shields.io/badge/Backend-Java%20Projects-0A66C2?style=flat-square)
-![Open Source](https://img.shields.io/badge/Open%20Source-Spring%20Boot-3DA639?style=flat-square)
-![Database](https://img.shields.io/badge/Database-SQL%20%26%20NoSQL-003545?style=flat-square)
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-### 🤝 Need Help With  
-![DSA](https://img.shields.io/badge/DSA-Interview%20Prep-1F6FEB?style=flat-square)
-![System Design](https://img.shields.io/badge/System%20Design-Basics-F78166?style=flat-square)
-![Clean Code](https://img.shields.io/badge/Clean%20Code-Scalable-3FB950?style=flat-square)
-
-</td>
-<td>
-
-### 🌱 Learning  
-![Java](https://img.shields.io/badge/Java-Frameworks-ED8B00?style=flat-square)
-![DSA](https://img.shields.io/badge/DSA-Daily%20Practice-8250DF?style=flat-square)
-![Databases](https://img.shields.io/badge/Databases-Core%20Concepts-4479A1?style=flat-square)
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-### 💬 Ask Me About  
-![Java](https://img.shields.io/badge/Java-OOPs%20%26%20Core-F0883E?style=flat-square)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Project%20Setup-6DB33F?style=flat-square)
-![DSA](https://img.shields.io/badge/DSA-Problem%20Solving-0A66C2?style=flat-square)
-
-</td>
-<td>
-
-### ⚡ Fun Fact  
-![Coding](https://img.shields.io/badge/Coding-Daily%20Habit-3FB950?style=flat-square)
-![Mindset](https://img.shields.io/badge/Mindset-Always%20Learning-D29922?style=flat-square)
-
-</td>
-</tr>
-</table>
 
 ---
 
