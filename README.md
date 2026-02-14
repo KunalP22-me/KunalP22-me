@@ -59,7 +59,6 @@
 <img width="48%" src="https://github-readme-activity-graph.vercel.app/graph?username=KunalP22-me&theme=tokyo-night&hide_border=true"/>
 </p>
 
----
 
 ## 🏅 GitHub Achievements
 
@@ -67,16 +66,17 @@
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="95"/>
 <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="95"/>
 <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="95"/>
-<img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="95"/>
 </p>
 
 ---
 
+<div align="center">
+
 ## 🐍 Contribution Snake
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/KunalP22-me/KunalP22-me/output/github-contribution-grid-snake-dark.svg"/>
-</p>
+![Snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
+
+</div>
 
 ---
 
