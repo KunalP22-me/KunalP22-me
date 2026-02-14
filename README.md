@@ -8,7 +8,7 @@
 ---
 
 ## 🚀 Developer Dashboard
-| 🔭 **Currently Working On** | 👯 **Collaboration** |
+| <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> **Currently Working On** | <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> **Collaboration** |
 |---|---|
 | ![Java](https://img.shields.io/badge/Java-Core%20%26%20Advanced-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-REST%20APIs-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-Build%20Automation-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) | ![Backend](https://img.shields.io/badge/Backend-Java%20Projects-0A66C2?style=for-the-badge) ![Open Source](https://img.shields.io/badge/Open%20Source-Spring%20Boot-3DA639?style=for-the-badge) ![Database](https://img.shields.io/badge/Database-SQL%20%26%20NoSQL-003545?style=for-the-badge) |
  
