@@ -1,7 +1,7 @@
 # 💫 It's ME This Time 
 
 <!-- 🔷 Typing Intro -->
-<p align="center">
+<p align="center"> 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2600&pause=800&color=00F7FF&center=true&vCenter=true&width=650&lines=Java+Backend+Developer;Spring+Boot+Enthusiast;DSA+Problem+Solver;Building+Scalable+Systems+🚀"/>
 </p>
 
