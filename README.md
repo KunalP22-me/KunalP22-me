@@ -46,8 +46,10 @@
 ## 📊 GitHub Dashboard
 
 <p align="center">
-<img width="70%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=dark&hide_border=false&count_private=true&include_all_commits=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=dark&hide_border=false"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=dark&hide_border=false"/>
 </p>
+
 
 
 ## 📈 GitHub Contribution Graph
