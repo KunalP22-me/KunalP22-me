@@ -46,16 +46,13 @@
 ## 📊 GitHub Dashboard
 
 <p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=dark&hide_border=false"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=dark&hide_border=false"/>
+  <img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KunalP22-me&theme=github_dark"/>
 </p>
 
-
-
-## 📊 GitHub Dashboard
-
+## 📈 GitHub Contribution Graph
 <p align="center">
-  <img width="70%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&include_all_commits=true&count_private=true&theme=dark&hide_border=false&cache_seconds=1800"/>
+<!-- <img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=tokyonight&hide_border=true"/> -->
+<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=KunalP22-me&theme=tokyo-night&hide_border=true"/>
 </p>
 
 
