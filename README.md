@@ -48,7 +48,7 @@
 <p align="center">
 <!-- <img width="70%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=tokyonight&hide_border=true"/> -->
 <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=dark&hide_border=false"/>
-</p>
+</p> 
 
 
 ## 📈 GitHub Contribution Graph
