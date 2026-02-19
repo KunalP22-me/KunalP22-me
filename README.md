@@ -5,7 +5,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2600&pause=800&color=00F7FF&center=true&vCenter=true&width=650&lines=Java+Backend+Developer;Spring+Boot+Enthusiast;DSA+Problem+Solver;Building+Scalable+Systems+🚀"/>
 </p>
 
----
 
 ## 🚀 Developer Dashboard
 | <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> **Currently Working On** | <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> **Collaboration** |
@@ -22,8 +21,6 @@
 
 
 
----
-
 ## 🌐 Connect With Me
 
 <p align="center">
@@ -33,7 +30,6 @@
 <a href="https://discordapp.com/users/1017728441220612186/"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/></a>
 </p>
 
----
 
 ## 💻 Tech Stack
 
@@ -41,7 +37,6 @@
 <img src="https://skillicons.dev/icons?i=java,spring,js,html,css,python,cpp,mysql,mongodb,react,aws,azure,firebase,git,vscode,idea,linux,postman&perline=9"/>
 </p>
 
----
 
 ## 📊 GitHub Dashboard
 <p align="center"> <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=dark&hide_border=false"/> </p>
