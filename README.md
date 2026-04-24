@@ -12,7 +12,7 @@
  
 | 🤝 **Need Help With** | 🌱 **Learning** |
 |---|---|
-| ![DSA](https://img.shields.io/badge/DSA-Interview%20Prep-blue?style=for-the-badge) ![System Design](https://img.shields.io/badge/System%20Design-Basics-orange?style=for-the-badge) ![Clean Code](https://img.shields.io/badge/Clean%20Code-Scalable-success?style=for-the-badge) | ![Java](https://img.shields.io/badge/Java-Frameworks-red?style=for-the-badge) ![DSA](https://img.shields.io/badge/DSA-Daily%20Practice-blueviolet?style=for-the-badge) ![Databases](https://img.shields.io/badge/Databases-Core%20Concepts-4479A1?style=for-the-badge) | 
+| ![DSA](https://img.shields.io/badge/DSA-Interview%20Prep-blue?style=for-the-badge) ![System Design](https://img.shields.io/badge/System%20Design-Basics-orange?style=for-the-badge) ![Clean Code](https://img.shields.io/badge/Clean%20Code-Scalable-success?style=for-the-badge) | ![Java](https://img.shields.io/badge/Java-Frameworks-red?style=for-the-badge) ![DSA](https://img.shields.io/badge/DSA-Daily%20Practice-blueviolet?style=for-the-badge) ![Databases](https://img.shields.io/badge/Databases-Core%20Concepts-4479A1?style=for-the-badge) |  
 
 | 💬 **Ask Me About** | ⚡ **Fun Fact** |
 |---|---|
