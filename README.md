@@ -38,10 +38,10 @@
 
 
 ## 📊 GitHub Dashboard
-<p align="center"> <img width="70%" src="https://github-readme-stats-fast.vercel.app/api?username=KunalP22 me&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117"/> </p> 
-<!-- <p align="center">
-  <img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KunalP22-me&theme=github_dark"/>
-</p> -->
+<div align="center"> 
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=KunalP22-me&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" height="150" alt="languages graph" />
+</div>
 
 ## 📈 GitHub Contribution Graph
 <p align="center">
