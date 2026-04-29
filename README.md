@@ -39,8 +39,8 @@
 
 ## 📊 GitHub Dashboard
 <div align="center"> 
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=KunalP22-me&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=KunalP22-me&show_icons=true&theme=dark&hide_border=true&title_color=FFA500&icon_color=FF6D00&text_color=FFFFFF" height="150"/>
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=dark&hide_border=true&title_color=FFA500&text_color=FFFFFF" height="150"/>
 </div>
 
 
@@ -59,6 +59,6 @@
 <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="95"/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=dark&hide_border=true&ring=FF6D00&fire=FF4500&currStreakLabel=FFA500&sideLabels=FFA500&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=FFFFFF"/>
-</p>
+</p> -->
