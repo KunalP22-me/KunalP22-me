@@ -60,5 +60,5 @@
 </p>
 
 <p align="center">
-  <img width="70%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&include_all_commits=true&count_private=true&theme=dark&hide_border=false&cache_seconds=1800"/>
+  <img width="70%" src="https://github-readme-stats-fast.vercel.app/api?username=KunalP22-me&show_icons=true&theme=github_dark&hide_border=true"/>
 </p>
