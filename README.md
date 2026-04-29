@@ -38,7 +38,7 @@
 
 
 ## 📊 GitHub Dashboard
-<p align="center"> <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=dark&hide_border=false"/> </p>
+<!-- <p align="center"> <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=dark&hide_border=false"/> </p> -->
 <!-- <p align="center">
   <img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KunalP22-me&theme=github_dark"/>
 </p> -->
