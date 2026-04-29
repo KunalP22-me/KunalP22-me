@@ -59,3 +59,8 @@
 <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="95"/>
 <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="95"/>
 </p>
+
+<p align="center">
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=tokyonight&hide_border=true"/>
+</p>
