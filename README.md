@@ -41,7 +41,6 @@
 <div align="center"> 
   <img src="https://github-readme-stats-fast.vercel.app/api?username=KunalP22-me&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117" height="150" alt="stats graph" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117" height="150" alt="languages graph" />
-  <img width="70%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&include_all_commits=true&count_private=true&theme=dark&hide_border=false&cache_seconds=1800"/>
 </div>
 
 
@@ -61,6 +60,5 @@
 </p>
 
 <p align="center">
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=tokyonight&hide_border=true"/>
+  <img width="70%" src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&include_all_commits=true&count_private=true&theme=dark&hide_border=false&cache_seconds=1800"/>
 </p>
