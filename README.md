@@ -47,10 +47,6 @@
 
 
 ## 📈 GitHub Contribution Graph
-<p align="center"> 
-  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KunalP22-me&theme=tokyonight" alt="GitHub Contribution Graph"/>
-</p> 
-
 <p align="center">
   <img
     src="./assets/contribution-graph.svg"
