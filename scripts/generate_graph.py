@@ -9,8 +9,6 @@ from datetime import datetime, timedelta
 # ==========================================
 
 USERNAME = "KunalP22-me"
-
-# Token stored in GitHub Secrets
 TOKEN = os.environ["GRAPH_TOKEN"]
 
 
@@ -73,34 +71,17 @@ request = urllib.request.Request(
 # GET RESPONSE
 # ==========================================
 
-try:
-    with urllib.request.urlopen(request) as response:
-        data = json.load(response)
-
-except Exception as error:
-    print("Failed to connect to GitHub API")
-    print(error)
-    raise
+with urllib.request.urlopen(request) as response:
+    data = json.load(response)
 
 
 # ==========================================
-# CHECK API ERRORS
+# CHECK FOR API ERRORS
 # ==========================================
 
 if "errors" in data:
-    print("GitHub GraphQL Error:")
     print(json.dumps(data["errors"], indent=2))
     raise Exception("Failed to fetch contribution data")
-
-
-if "data" not in data:
-    print("Unexpected API response:")
-    print(json.dumps(data, indent=2))
-    raise Exception("GitHub API did not return data")
-
-
-if data["data"]["user"] is None:
-    raise Exception(f"GitHub user '{USERNAME}' not found")
 
 
 # ==========================================
@@ -122,13 +103,9 @@ for week in weeks:
         days.append(day)
 
 
-# Keep only last 30 days
+# Keep last 30 days
 days = days[-30:]
 
-
-# ==========================================
-# GET VALUES AND DAY LABELS
-# ==========================================
 
 values = [
     day["contributionCount"]
@@ -149,26 +126,17 @@ print("Contribution values:", values)
 
 
 # ==========================================
-# FIND GRAPH MAXIMUM
+# DYNAMIC GRAPH MAX
 # ==========================================
 
-max_value = max(values) if values else 5
+max_value = max(values) if values else 1
 
+# Directly use maximum contribution count
+graph_max = max_value
 
-if max_value <= 5:
-    graph_max = 5
-
-elif max_value <= 10:
-    graph_max = 10
-
-elif max_value <= 15:
-    graph_max = 15
-
-elif max_value <= 20:
-    graph_max = 20
-
-else:
-    graph_max = ((max_value // 5) + 1) * 5
+# Prevent division by zero
+if graph_max == 0:
+    graph_max = 1
 
 
 # ==========================================
@@ -190,7 +158,7 @@ graph_height = BOTTOM - TOP
 
 
 # ==========================================
-# CONVERT CONTRIBUTIONS TO Y POSITION
+# CONVERT VALUE TO Y POSITION
 # ==========================================
 
 def get_y(value):
@@ -226,7 +194,6 @@ for i, (x, y) in enumerate(points):
 
     if i == 0:
         path += f"M{x:.2f},{y:.2f}"
-
     else:
         path += f"L{x:.2f},{y:.2f}"
 
@@ -236,7 +203,6 @@ for i, (x, y) in enumerate(points):
 # ==========================================
 
 area_path = path
-
 area_path += f"L{points[-1][0]:.2f},{BOTTOM}"
 area_path += f"L{points[0][0]:.2f},{BOTTOM}Z"
 
@@ -258,60 +224,46 @@ svg = f'''<svg
     font-family: Segoe UI, Ubuntu, sans-serif;
     font-size: 20px;
     font-weight: 600;
-    fill: #539BF5;
+    fill: #3FB950;
 }}
 
 .label {{
     font-family: Segoe UI, Ubuntu, sans-serif;
     font-size: 12px;
-    fill: #ADBAC7;
+    fill: #8B949E;
 }}
 
 .axis-title {{
     font-family: Segoe UI, Ubuntu, sans-serif;
     font-size: 13px;
-    fill: #ADBAC7;
+    fill: #8B949E;
 }}
 
 .grid {{
-    stroke: #ADBAC7;
+    stroke: #30363D;
     stroke-width: 1;
-    stroke-opacity: 0.25;
+    stroke-opacity: 0.8;
     stroke-dasharray: 2;
 }}
 
 .line {{
     fill: none;
-    stroke: #ADBAC7;
+    stroke: #3FB950;
     stroke-width: 4;
     stroke-linejoin: round;
     stroke-linecap: round;
 }}
 
 .point {{
-    fill: #539BF5;
+    fill: #3FB950;
 }}
 
 .area {{
-    fill: #ADBAC7;
-    fill-opacity: 0.10;
+    fill: #3FB950;
+    fill-opacity: 0.12;
 }}
 
 </style>
-
-
-<!-- BACKGROUND -->
-
-<rect
-    x="0"
-    y="0"
-    width="1200"
-    height="420"
-    rx="6"
-    fill="#24292F"
-    stroke="#444C56"
-    stroke-width="1"
-/>
 
 
 <!-- TITLE -->
@@ -344,14 +296,15 @@ for x, y in points:
 
 
 # ==========================================
-# HORIZONTAL GRID LINES + Y LABELS
+# DYNAMIC Y-AXIS
 # ==========================================
 
-steps = 5
+# Create 5 equal sections
+steps = min(graph_max, 5)
 
 for i in range(steps + 1):
 
-    value = int(
+    value = round(
         (graph_max / steps) * i
     )
 
@@ -377,7 +330,7 @@ for i in range(steps + 1):
 
 
 # ==========================================
-# ADD GRAPH AREA
+# ADD AREA
 # ==========================================
 
 svg += f'''
@@ -390,7 +343,7 @@ svg += f'''
 
 
 # ==========================================
-# ADD GRAPH LINE
+# ADD LINE
 # ==========================================
 
 svg += f'''
@@ -403,7 +356,7 @@ svg += f'''
 
 
 # ==========================================
-# ADD CONTRIBUTION POINTS
+# ADD POINTS
 # ==========================================
 
 for x, y in points:
@@ -419,7 +372,7 @@ for x, y in points:
 
 
 # ==========================================
-# ADD X AXIS LABELS
+# ADD X-AXIS LABELS
 # ==========================================
 
 for i, label in enumerate(labels):
@@ -438,7 +391,7 @@ for i, label in enumerate(labels):
 
 
 # ==========================================
-# ADD AXIS TITLES
+# AXIS TITLES
 # ==========================================
 
 svg += '''
@@ -461,7 +414,6 @@ svg += '''
     Contributions
 </text>
 
-
 </svg>
 '''
 
@@ -477,7 +429,7 @@ os.makedirs(
 
 
 # ==========================================
-# SAVE SVG FILE
+# SAVE SVG
 # ==========================================
 
 with open(
@@ -491,5 +443,5 @@ with open(
 
 print("================================")
 print("Contribution graph generated!")
+print("Maximum commits:", max_value)
 print("================================")
-print("File: assets/contribution-graph.svg")
