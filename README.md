@@ -48,17 +48,8 @@
 
 ## 📈 GitHub Contribution Graph
 <p align="center"> 
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=tokyonight&hide_border=true"/>
-<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=KunalP22-me&theme=tokyo-night&hide_border=true"/>
   <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KunalP22-me&theme=tokyonight" alt="GitHub Contribution Graph"/>
 </p> 
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=KunalP22-me&bg_color=20262E&color=8BA4C4&line=B0BAC5&point=539BF5&area=true&area_color=FFFFFF&hide_border=true&hide_title=true"
-  />
-</p>
 
 
 
