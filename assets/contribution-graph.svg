@@ -1,0 +1,898 @@
+<svg
+    width="1200"
+    height="420"
+    viewBox="0 0 1200 420"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+
+<style>
+
+.title {
+    font-family: Segoe UI, Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    fill: #539BF5;
+}
+
+.label {
+    font-family: Segoe UI, Ubuntu, sans-serif;
+    font-size: 12px;
+    fill: #ADBAC7;
+}
+
+.axis-title {
+    font-family: Segoe UI, Ubuntu, sans-serif;
+    font-size: 13px;
+    fill: #ADBAC7;
+}
+
+.grid {
+    stroke: #ADBAC7;
+    stroke-width: 1;
+    stroke-opacity: 0.25;
+    stroke-dasharray: 2;
+}
+
+.line {
+    fill: none;
+    stroke: #ADBAC7;
+    stroke-width: 4;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.point {
+    fill: #539BF5;
+}
+
+.area {
+    fill: #ADBAC7;
+    fill-opacity: 0.10;
+}
+
+</style>
+
+
+<!-- BACKGROUND -->
+
+<rect
+    x="0"
+    y="0"
+    width="1200"
+    height="420"
+    rx="6"
+    fill="#24292F"
+    stroke="#444C56"
+    stroke-width="1"
+/>
+
+
+<!-- TITLE -->
+
+<text
+    x="600"
+    y="45"
+    text-anchor="middle"
+    class="title">
+    Kunal's Contribution Graph
+</text>
+
+<line
+    x1="90.00"
+    x2="90.00"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="126.55"
+    x2="126.55"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="163.10"
+    x2="163.10"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="199.66"
+    x2="199.66"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="236.21"
+    x2="236.21"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="272.76"
+    x2="272.76"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="309.31"
+    x2="309.31"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="345.86"
+    x2="345.86"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="382.41"
+    x2="382.41"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="418.97"
+    x2="418.97"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="455.52"
+    x2="455.52"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="492.07"
+    x2="492.07"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="528.62"
+    x2="528.62"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="565.17"
+    x2="565.17"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="601.72"
+    x2="601.72"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="638.28"
+    x2="638.28"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="674.83"
+    x2="674.83"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="711.38"
+    x2="711.38"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="747.93"
+    x2="747.93"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="784.48"
+    x2="784.48"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="821.03"
+    x2="821.03"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="857.59"
+    x2="857.59"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="894.14"
+    x2="894.14"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="930.69"
+    x2="930.69"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="967.24"
+    x2="967.24"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="1003.79"
+    x2="1003.79"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="1040.34"
+    x2="1040.34"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="1076.90"
+    x2="1076.90"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="1113.45"
+    x2="1113.45"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="1150.00"
+    x2="1150.00"
+    y1="80"
+    y2="350"
+    class="grid"
+/>
+
+<line
+    x1="90"
+    x2="1150"
+    y1="350.00"
+    y2="350.00"
+    class="grid"
+/>
+
+<text
+    x="80"
+    y="355.00"
+    text-anchor="end"
+    class="label">
+    0
+</text>
+
+<line
+    x1="90"
+    x2="1150"
+    y1="296.00"
+    y2="296.00"
+    class="grid"
+/>
+
+<text
+    x="80"
+    y="301.00"
+    text-anchor="end"
+    class="label">
+    2
+</text>
+
+<line
+    x1="90"
+    x2="1150"
+    y1="242.00"
+    y2="242.00"
+    class="grid"
+/>
+
+<text
+    x="80"
+    y="247.00"
+    text-anchor="end"
+    class="label">
+    4
+</text>
+
+<line
+    x1="90"
+    x2="1150"
+    y1="188.00"
+    y2="188.00"
+    class="grid"
+/>
+
+<text
+    x="80"
+    y="193.00"
+    text-anchor="end"
+    class="label">
+    6
+</text>
+
+<line
+    x1="90"
+    x2="1150"
+    y1="134.00"
+    y2="134.00"
+    class="grid"
+/>
+
+<text
+    x="80"
+    y="139.00"
+    text-anchor="end"
+    class="label">
+    8
+</text>
+
+<line
+    x1="90"
+    x2="1150"
+    y1="80.00"
+    y2="80.00"
+    class="grid"
+/>
+
+<text
+    x="80"
+    y="85.00"
+    text-anchor="end"
+    class="label">
+    10
+</text>
+
+
+<path
+    d="M90.00,296.00L126.55,242.00L163.10,242.00L199.66,296.00L236.21,296.00L272.76,296.00L309.31,296.00L345.86,323.00L382.41,296.00L418.97,296.00L455.52,296.00L492.07,296.00L528.62,296.00L565.17,296.00L601.72,188.00L638.28,242.00L674.83,323.00L711.38,296.00L747.93,323.00L784.48,242.00L821.03,296.00L857.59,242.00L894.14,296.00L930.69,242.00L967.24,323.00L1003.79,323.00L1040.34,296.00L1076.90,242.00L1113.45,323.00L1150.00,242.00L1150.00,350L90.00,350Z"
+    class="area"
+/>
+
+
+<path
+    d="M90.00,296.00L126.55,242.00L163.10,242.00L199.66,296.00L236.21,296.00L272.76,296.00L309.31,296.00L345.86,323.00L382.41,296.00L418.97,296.00L455.52,296.00L492.07,296.00L528.62,296.00L565.17,296.00L601.72,188.00L638.28,242.00L674.83,323.00L711.38,296.00L747.93,323.00L784.48,242.00L821.03,296.00L857.59,242.00L894.14,296.00L930.69,242.00L967.24,323.00L1003.79,323.00L1040.34,296.00L1076.90,242.00L1113.45,323.00L1150.00,242.00"
+    class="line"
+/>
+
+<circle
+    cx="90.00"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="126.55"
+    cy="242.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="163.10"
+    cy="242.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="199.66"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="236.21"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="272.76"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="309.31"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="345.86"
+    cy="323.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="382.41"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="418.97"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="455.52"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="492.07"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="528.62"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="565.17"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="601.72"
+    cy="188.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="638.28"
+    cy="242.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="674.83"
+    cy="323.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="711.38"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="747.93"
+    cy="323.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="784.48"
+    cy="242.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="821.03"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="857.59"
+    cy="242.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="894.14"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="930.69"
+    cy="242.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="967.24"
+    cy="323.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="1003.79"
+    cy="323.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="1040.34"
+    cy="296.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="1076.90"
+    cy="242.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="1113.45"
+    cy="323.00"
+    r="4"
+    class="point"
+/>
+
+<circle
+    cx="1150.00"
+    cy="242.00"
+    r="4"
+    class="point"
+/>
+
+<text
+    x="90.00"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    3
+</text>
+
+<text
+    x="126.55"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    4
+</text>
+
+<text
+    x="163.10"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    5
+</text>
+
+<text
+    x="199.66"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    6
+</text>
+
+<text
+    x="236.21"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    7
+</text>
+
+<text
+    x="272.76"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    8
+</text>
+
+<text
+    x="309.31"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    9
+</text>
+
+<text
+    x="345.86"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    10
+</text>
+
+<text
+    x="382.41"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    11
+</text>
+
+<text
+    x="418.97"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    12
+</text>
+
+<text
+    x="455.52"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    13
+</text>
+
+<text
+    x="492.07"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    14
+</text>
+
+<text
+    x="528.62"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    15
+</text>
+
+<text
+    x="565.17"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    16
+</text>
+
+<text
+    x="601.72"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    17
+</text>
+
+<text
+    x="638.28"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    18
+</text>
+
+<text
+    x="674.83"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    19
+</text>
+
+<text
+    x="711.38"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    20
+</text>
+
+<text
+    x="747.93"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    21
+</text>
+
+<text
+    x="784.48"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    22
+</text>
+
+<text
+    x="821.03"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    23
+</text>
+
+<text
+    x="857.59"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    24
+</text>
+
+<text
+    x="894.14"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    25
+</text>
+
+<text
+    x="930.69"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    26
+</text>
+
+<text
+    x="967.24"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    27
+</text>
+
+<text
+    x="1003.79"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    28
+</text>
+
+<text
+    x="1040.34"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    29
+</text>
+
+<text
+    x="1076.90"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    30
+</text>
+
+<text
+    x="1113.45"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    31
+</text>
+
+<text
+    x="1150.00"
+    y="375"
+    text-anchor="middle"
+    class="label">
+    1
+</text>
+
+
+<text
+    x="620"
+    y="405"
+    text-anchor="middle"
+    class="axis-title">
+    Days
+</text>
+
+
+<text
+    x="25"
+    y="215"
+    text-anchor="middle"
+    class="axis-title"
+    transform="rotate(-90 25 215)">
+    Contributions
+</text>
+
+
+</svg>
