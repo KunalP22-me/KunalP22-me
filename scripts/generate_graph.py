@@ -3,15 +3,32 @@ import json
 import urllib.request
 from datetime import datetime, timedelta
 
-TOKEN = os.environ["GITHUB_TOKEN"]
 
-# Last 30 days
+# ==========================================
+# CONFIGURATION
+# ==========================================
+
+USERNAME = "KunalP22-me"
+
+# Token stored in GitHub Secrets
+TOKEN = os.environ["GRAPH_TOKEN"]
+
+
+# ==========================================
+# GET LAST 30 DAYS
+# ==========================================
+
 today = datetime.utcnow().date()
 start_date = today - timedelta(days=29)
 
+
+# ==========================================
+# GITHUB GRAPHQL QUERY
+# ==========================================
+
 query = """
-query($from: DateTime!, $to: DateTime!) {
-  viewer {
+query($username: String!, $from: DateTime!, $to: DateTime!) {
+  user(login: $username) {
     contributionsCollection(from: $from, to: $to) {
       contributionCalendar {
         weeks {
@@ -26,28 +43,77 @@ query($from: DateTime!, $to: DateTime!) {
 }
 """
 
+
 payload = {
     "query": query,
     "variables": {
+        "username": USERNAME,
         "from": start_date.isoformat() + "T00:00:00Z",
         "to": today.isoformat() + "T23:59:59Z"
     }
 }
 
+
+# ==========================================
+# SEND REQUEST TO GITHUB API
+# ==========================================
+
 request = urllib.request.Request(
     "https://api.github.com/graphql",
-    data=json.dumps(payload).encode(),
+    data=json.dumps(payload).encode("utf-8"),
     headers={
         "Authorization": f"Bearer {TOKEN}",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "User-Agent": "Contribution-Graph"
     }
 )
 
-with urllib.request.urlopen(request) as response:
-    data = json.load(response)
 
-# Extract contribution days
-weeks = data["data"]["viewer"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+# ==========================================
+# GET RESPONSE
+# ==========================================
+
+try:
+    with urllib.request.urlopen(request) as response:
+        data = json.load(response)
+
+except Exception as error:
+    print("Failed to connect to GitHub API")
+    print(error)
+    raise
+
+
+# ==========================================
+# CHECK API ERRORS
+# ==========================================
+
+if "errors" in data:
+    print("GitHub GraphQL Error:")
+    print(json.dumps(data["errors"], indent=2))
+    raise Exception("Failed to fetch contribution data")
+
+
+if "data" not in data:
+    print("Unexpected API response:")
+    print(json.dumps(data, indent=2))
+    raise Exception("GitHub API did not return data")
+
+
+if data["data"]["user"] is None:
+    raise Exception(f"GitHub user '{USERNAME}' not found")
+
+
+# ==========================================
+# EXTRACT CONTRIBUTION DATA
+# ==========================================
+
+weeks = (
+    data["data"]["user"]
+    ["contributionsCollection"]
+    ["contributionCalendar"]
+    ["weeks"]
+)
+
 
 days = []
 
@@ -55,70 +121,129 @@ for week in weeks:
     for day in week["contributionDays"]:
         days.append(day)
 
-# Keep last 30 days
+
+# Keep only last 30 days
 days = days[-30:]
 
-values = [day["contributionCount"] for day in days]
-labels = [datetime.fromisoformat(day["date"]).day for day in days]
 
-max_value = max(values) if max(values) > 0 else 5
+# ==========================================
+# GET VALUES AND DAY LABELS
+# ==========================================
 
-# Round graph maximum
+values = [
+    day["contributionCount"]
+    for day in days
+]
+
+
+labels = [
+    datetime.strptime(
+        day["date"],
+        "%Y-%m-%d"
+    ).day
+    for day in days
+]
+
+
+print("Contribution values:", values)
+
+
+# ==========================================
+# FIND GRAPH MAXIMUM
+# ==========================================
+
+max_value = max(values) if values else 5
+
+
 if max_value <= 5:
     graph_max = 5
+
 elif max_value <= 10:
     graph_max = 10
+
 elif max_value <= 15:
     graph_max = 15
+
 elif max_value <= 20:
     graph_max = 20
+
 else:
     graph_max = ((max_value // 5) + 1) * 5
 
 
-# SVG dimensions
+# ==========================================
+# SVG DIMENSIONS
+# ==========================================
+
 WIDTH = 1200
 HEIGHT = 420
 
 LEFT = 90
 RIGHT = 1150
+
 TOP = 80
 BOTTOM = 350
+
 
 graph_width = RIGHT - LEFT
 graph_height = BOTTOM - TOP
 
 
-# Convert contribution value to Y coordinate
+# ==========================================
+# CONVERT CONTRIBUTIONS TO Y POSITION
+# ==========================================
+
 def get_y(value):
-    return BOTTOM - (value / graph_max) * graph_height
+    return BOTTOM - (
+        value / graph_max
+    ) * graph_height
 
 
-# Generate points
+# ==========================================
+# CREATE GRAPH POINTS
+# ==========================================
+
 points = []
 
 for i, value in enumerate(values):
-    x = LEFT + (i * graph_width / (len(values) - 1))
+
+    x = LEFT + (
+        i * graph_width / (len(values) - 1)
+    )
+
     y = get_y(value)
 
     points.append((x, y))
 
 
-# Create SVG path
+# ==========================================
+# CREATE LINE PATH
+# ==========================================
+
 path = ""
 
 for i, (x, y) in enumerate(points):
+
     if i == 0:
         path += f"M{x:.2f},{y:.2f}"
+
     else:
         path += f"L{x:.2f},{y:.2f}"
 
 
-# Area under graph
+# ==========================================
+# CREATE AREA PATH
+# ==========================================
+
 area_path = path
+
 area_path += f"L{points[-1][0]:.2f},{BOTTOM}"
 area_path += f"L{points[0][0]:.2f},{BOTTOM}Z"
 
+
+# ==========================================
+# START SVG
+# ==========================================
 
 svg = f'''<svg
     width="{WIDTH}"
@@ -129,22 +254,21 @@ svg = f'''<svg
 
 <style>
 
-body {{
-    font-family: Segoe UI, Ubuntu, sans-serif;
-}}
-
 .title {{
+    font-family: Segoe UI, Ubuntu, sans-serif;
     font-size: 20px;
     font-weight: 600;
     fill: #539BF5;
 }}
 
 .label {{
+    font-family: Segoe UI, Ubuntu, sans-serif;
     font-size: 12px;
     fill: #ADBAC7;
 }}
 
 .axis-title {{
+    font-family: Segoe UI, Ubuntu, sans-serif;
     font-size: 13px;
     fill: #ADBAC7;
 }}
@@ -176,7 +300,7 @@ body {{
 </style>
 
 
-<!-- Background -->
+<!-- BACKGROUND -->
 
 <rect
     x="0"
@@ -190,7 +314,7 @@ body {{
 />
 
 
-<!-- Title -->
+<!-- TITLE -->
 
 <text
     x="600"
@@ -199,14 +323,14 @@ body {{
     class="title">
     Kunal's Contribution Graph
 </text>
-
-
-<!-- Vertical grid lines -->
 '''
 
-# Vertical grid lines
-for i in range(len(points)):
-    x = points[i][0]
+
+# ==========================================
+# VERTICAL GRID LINES
+# ==========================================
+
+for x, y in points:
 
     svg += f'''
 <line
@@ -218,12 +342,19 @@ for i in range(len(points)):
 />
 '''
 
-# Horizontal grid lines
+
+# ==========================================
+# HORIZONTAL GRID LINES + Y LABELS
+# ==========================================
+
 steps = 5
 
 for i in range(steps + 1):
 
-    value = int((graph_max / steps) * i)
+    value = int(
+        (graph_max / steps) * i
+    )
+
     y = get_y(value)
 
     svg += f'''
@@ -244,18 +375,25 @@ for i in range(steps + 1):
 </text>
 '''
 
-# Graph area and line
-svg += f'''
 
-<!-- Area -->
+# ==========================================
+# ADD GRAPH AREA
+# ==========================================
+
+svg += f'''
 
 <path
     d="{area_path}"
     class="area"
 />
+'''
 
 
-<!-- Contribution line -->
+# ==========================================
+# ADD GRAPH LINE
+# ==========================================
+
+svg += f'''
 
 <path
     d="{path}"
@@ -263,7 +401,11 @@ svg += f'''
 />
 '''
 
-# Points
+
+# ==========================================
+# ADD CONTRIBUTION POINTS
+# ==========================================
+
 for x, y in points:
 
     svg += f'''
@@ -275,7 +417,11 @@ for x, y in points:
 />
 '''
 
-# X axis labels
+
+# ==========================================
+# ADD X AXIS LABELS
+# ==========================================
+
 for i, label in enumerate(labels):
 
     x = points[i][0]
@@ -290,10 +436,12 @@ for i, label in enumerate(labels):
 </text>
 '''
 
-# Axis titles
-svg += '''
 
-<!-- Axis titles -->
+# ==========================================
+# ADD AXIS TITLES
+# ==========================================
+
+svg += '''
 
 <text
     x="620"
@@ -318,8 +466,19 @@ svg += '''
 '''
 
 
-# Save SVG
-os.makedirs("assets", exist_ok=True)
+# ==========================================
+# CREATE ASSETS FOLDER
+# ==========================================
+
+os.makedirs(
+    "assets",
+    exist_ok=True
+)
+
+
+# ==========================================
+# SAVE SVG FILE
+# ==========================================
 
 with open(
     "assets/contribution-graph.svg",
@@ -330,4 +489,7 @@ with open(
     file.write(svg)
 
 
-print("Contribution graph generated successfully!")
+print("================================")
+print("Contribution graph generated!")
+print("================================")
+print("File: assets/contribution-graph.svg")
