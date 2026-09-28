@@ -1,6 +1,5 @@
 # 💫 It's ME This Time. 
 
-
 <!-- 🔷 Typing Intro -->
 <p align="center">
   <img 
@@ -8,8 +7,6 @@
     alt="Typing SVG"
   />
 </p>
-
-
 
 
 ## 🚀 Developer Dashboard  
@@ -24,7 +21,6 @@
 | 💬 **Ask Me About** | ⚡ **Fun Fact** |
 |---|---|
 | ![Java](https://img.shields.io/badge/Java-OOPs%20%26%20Core-orange?style=for-the-badge) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Project%20Setup-6DB33F?style=for-the-badge) ![DSA](https://img.shields.io/badge/DSA-Problem%20Solving-blue?style=for-the-badge) | ![Consistency](https://img.shields.io/badge/Coding-Daily%20Habit-success?style=for-the-badge) ![Growth](https://img.shields.io/badge/Mindset-Always%20Learning-yellow?style=for-the-badge) |
-
 
 
 ## 🌐 Connect With Me
@@ -51,8 +47,6 @@
 </div>
 
 
-
-
 ## 📈 GitHub Contribution Graph
 <p align="center">
   <img
@@ -63,9 +57,7 @@
 </p>
 
 
-
 ## 🏅 GitHub Achievements
-
 <p align="center">
 <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="95"/>
 <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="95"/>
