@@ -8,8 +8,6 @@
   />
 </p> 
 
-
-
 ## 🚀 Developer Dashboard
 | <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> **Currently Working On** | <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> **Collaboration** |
 |---|---|
