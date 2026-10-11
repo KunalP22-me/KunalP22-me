@@ -63,6 +63,6 @@
 <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="95"/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KunalP22-me&theme=dark&hide_border=true&ring=FF6D00&fire=FF4500&currStreakLabel=FFA500&sideLabels=FFA500&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=FFFFFF"/>
-</p>
+</p> -->
