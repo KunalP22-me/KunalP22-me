@@ -46,7 +46,6 @@
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=KunalP22-me&layout=compact&theme=dark&hide_border=true&title_color=FFA500&text_color=FFFFFF" height="150"/>
 </div>
 
-
 ## 📈 GitHub Contribution Graph
 <p align="center">
   <img
