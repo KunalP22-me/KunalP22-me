@@ -20,7 +20,8 @@
 
 | 💬 **Ask Me About** | ⚡ **Fun Fact** |
 |---|---|
-| ![Java](https://img.shields.io/badge/Java-OOPs%20%26%20Core-orange?style=for-the-badge) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Project%20Setup-6DB33F?style=for-the-badge) ![DSA](https://img.shields.io/badge/DSA-Problem%20Solving-blue?style=for-the-badge) | ![Consistency](https://img.shields.io/badge/Coding-Daily%20Habit-success?style=for-the-badge) ![Growth](https://img.shields.io/badge/Mindset-Always%20Learning-yellow?style=for-the-badge) |
+| ![System Design](https://img.shields.io/badge/System%20Design-HLD%20%26%20LLD-0A66C2?style=for-the-badge) ![Architecture](https://img.shields.io/badge/Architecture-Monolithic%20%26%20Microservices-6C63FF?style=for-the-badge)
+![Scalability](https://img.shields.io/badge/Scalability-Load%20Balancing%20%26%20Caching-2E8B57?style=for-the-badge) ![Distributed Systems](https://img.shields.io/badge/Distributed%20Systems-Concepts%20%26%20Design-8A2BE2?style=for-the-badge) ![DSA](https://img.shields.io/badge/DSA-Problem%20Solving-blue?style=for-the-badge) | ![Consistency](https://img.shields.io/badge/Coding-Daily%20Habit-success?style=for-the-badge) ![Growth](https://img.shields.io/badge/Mindset-Always%20Learning-yellow?style=for-the-badge) |
 
 
 ## 🌐 Connect With Me
